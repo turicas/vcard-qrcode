@@ -9,7 +9,7 @@ python vcard_qrcode.py \
   --organization 'Minha empresa Ltda' \
   --title 'Diretor de Tecnologia' \
   --nick 'Zé Carlos' \
-  -- lang 'pt-BR' \
+  --lang 'pt-BR' \
   --phone '+55 11 999 888 777' \
   --phone_type 'Celular' \
   --url 'https://www.dasilva.com/' \
