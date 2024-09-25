@@ -18,7 +18,7 @@ def create_vcard(first_name, last_name, email=None, organizations=None,
     card.kind.value = "individual"
 
     card.add("rev")
-    card.rev.value = datetime.datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+    card.rev.value = datetime.datetime.now(datetime.UTC).strftime("%Y%m%dT%H%M%SZ")
 
     if lang is not None:
         card.add("lang")
