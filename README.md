@@ -1,7 +1,15 @@
-# vCard QRcode
+# vCard inside a QRcode
 
-- Gera arquivo do tipo vCard e anexa no QRcode
-  - Ao ler o QRcode, usuário não precisa acessar um link (já tem as informações offline)
+This script generates a vCard file and then encodes it into a qrcode so the user don't need to be online to get your
+contact info.
+
+To install dependencies:
+
+```shell
+pip install -r requirements.txt
+```
+
+Then:
 
 ```shell
 python vcard_qrcode.py \
